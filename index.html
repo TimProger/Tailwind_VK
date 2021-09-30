@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=970px initial-scale=1.0">
-
-    
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <title>Тима Акылверен</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <style>
-    [x-cloak]{display: none;}
-    .w970{max-width: 970px;}
-    .text-xs-upd{font-size: .8rem;line-height: 1.3;}
-    .text-sm-upd{font-size: .8rem;line-height: 1;}
-    .text-sm{font-size: .7rem;line-height: 1.3;}
-    .text-lg{font-size: .9rem;line-height: 1.3;}
-    .blue-text-1{color: #2a5885;}
-    .blue-text-2{color: #5181b8;}
-    .pt-full{padding-top: 100%;}
+        [x-cloak] {
+            display: none;
+        }
+
+        .w970 {
+            max-width: 970px;
+            min-width: 970px;
+        }
+
+        .text-xs-upd {
+            font-size: .8rem;
+            line-height: 1.3;
+        }
+
+        .text-sm-upd {
+            font-size: .8rem;
+            line-height: 1;
+        }
+
+        .text-sm {
+            font-size: .7rem;
+            line-height: 1.3;
+        }
+
+        .text-lg {
+            font-size: .9rem;
+            line-height: 1.3;
+        }
+
+        .blue-text-1 {
+            color: #2a5885;
+        }
+
+        .blue-text-2 {
+            color: #5181b8;
+        }
+
+        .pt-full {
+            padding-top: 100%;
+        }
     </style>
 </head>
+
 <body class="min-h-screen bg-gray-100 text-xs-upd">
     <!-- Header -->
     <header class="bg-white border-b flex items-center justify-center z-10 sticky top-0">
@@ -29,29 +76,84 @@
                 <div class="flex items-center justify-center h-full">
                     <!-- Logo -->
                     <a href="#" class="block w-40 mr-2 flex-shrink-0">
-                        <svg class="h-6" fill="none" viewBox="0 0 274 48" xmlns="http://www.w3.org/2000/svg"><path d="m0 23c0-10.8423 0-16.26346 3.36827-19.63173s8.78943-3.36827 19.63173-3.36827h2c10.8423 0 16.2635 0 19.6317 3.36827 3.3683 3.36827 3.3683 8.78943 3.3683 19.63173v2c0 10.8423 0 16.2635-3.3683 19.6317-3.3682 3.3683-8.7894 3.3683-19.6317 3.3683h-2c-10.8423 0-16.26346 0-19.63173-3.3683-3.36827-3.3682-3.36827-8.7894-3.36827-19.6317z" fill="#2787f5"/><path clip-rule="evenodd" d="m13.0009 15h-3.5008c-1.00024 0-1.2003.4708-1.2003.9898 0 .9271 1.18686 5.525 5.5262 11.6061 2.8929 4.1529 6.9687 6.4041 10.6776 6.4041 2.2253 0 2.5006-.5 2.5006-1.3612v-3.1388c0-1 .2108-1.1996.9154-1.1996.5193 0 1.4094.2596 3.4864 2.2619 2.3737 2.3731 2.765 3.4377 4.1001 3.4377h3.5008c1.0003 0 1.5004-.5 1.2119-1.4867-.3157-.9834-1.449-2.4103-2.9528-4.1016-.816-.9641-2.0399-2.0023-2.4108-2.5215-.5192-.6674-.3709-.9641 0-1.5573 0 0 4.2652-6.007 4.7103-8.0463.2225-.7417 0-1.2866-1.0587-1.2866h-3.5008c-.8901 0-1.3005.4708-1.5231.9898 0 0-1.7802 4.3384-4.3022 7.1565-.816.8157-1.1869 1.0753-1.632 1.0753-.2225 0-.5446-.2596-.5446-1.0011v-6.9339c0-.89-.2583-1.2866-1.0002-1.2866h-5.5013c-.5562 0-.8908.413-.8908.8045 0 .8436 1.261 1.0382 1.391 3.4113v5.1542c0 1.13-.2042 1.3349-.6492 1.3349-1.1868 0-4.0737-4.3578-5.7859-9.3442-.3355-.9692-.6721-1.3607-1.5668-1.3607z" fill="#fff" fill-rule="evenodd"/><g fill="#000"><path d="m81.8929 23.5791c1.9035-.8883 3.1302-2.3688 3.1302-4.653 0-3.4686-3.1725-5.922-7.7409-5.922h-10.5327v21.996h10.998c4.7376 0 8.037-2.5803 8.037-6.0912 0-2.6649-1.7343-4.653-3.8916-5.3298zm-10.2789-6.5565h5.6682c1.692 0 2.8764 1.0152 2.8764 2.4111s-1.1844 2.3688-2.8764 2.3688h-5.6682zm6.1335 13.959h-6.1335v-5.3721h6.1335c1.9035 0 3.1725 1.0998 3.1725 2.7072s-1.269 2.6649-3.1725 2.6649z"/><path d="m103.876 35.0001h6.387l-10.11-11.421 9.264-10.575h-5.795l-7.3603 8.5446h-1.1844v-8.5446h-4.8645v21.996h4.8645v-8.7561h1.1844z"/><path d="m122.679 35.4231c6.895 0 11.76-4.7376 11.76-11.421s-4.865-11.421-11.76-11.421-11.759 4.7376-11.759 11.421 4.864 11.421 11.759 11.421zm0-4.4415c-3.976 0-6.683-2.8341-6.683-6.9795s2.707-6.9795 6.683-6.9795c3.977 0 6.684 2.8341 6.684 6.9795s-2.707 6.9795-6.684 6.9795z"/><path d="m153.388 13.0041v8.6715h-9.856v-8.6715h-4.864v21.996h4.864v-8.883h9.856v8.883h4.865v-21.996z"/><path d="m169.241 35.0001h4.865v-17.5545h7.614v-4.4415h-20.093v4.4415h7.614z"/><path d="m193.24 12.5811c-4.272 0-8.037 2.1996-9.137 6.0066l4.484.7614c.677-1.3536 2.2-2.6226 4.399-2.6226 2.665 0 4.23 1.9035 4.442 4.7799h-4.738c-6.472 0-9.687 2.8341-9.687 6.8949 0 4.1031 3.173 7.0218 7.657 7.0218 3.595 0 6.006-2.0727 7.064-3.8916l1.015 3.4686h3.596v-12.3516c0-6.3873-3.469-10.0674-9.095-10.0674zm-1.438 18.7389c-2.369 0-3.892-1.2267-3.892-3.1302 0-1.692 1.227-2.8764 4.949-2.8764h4.611c0 3.5955-2.284 6.0066-5.668 6.0066z"/><path d="m221.275 35.0001h6.387l-10.11-11.421 9.264-10.575h-5.795l-7.36 8.5446h-1.185v-8.5446h-4.864v21.996h4.864v-8.7561h1.185z"/><path d="m235.913 35.0001h4.865v-17.5545h7.614v-4.4415h-20.093v4.4415h7.614z"/><path d="m272.518 23.7483c0-6.345-4.738-11.1672-11.421-11.1672-6.684 0-11.421 4.7799-11.421 11.421s4.737 11.421 11.421 11.421c4.568 0 8.883-2.1573 10.532-6.345l-4.568-.7614c-1.058 1.5651-3.088 2.6649-5.668 2.6649-3.723 0-6.176-2.2842-6.641-5.6682h17.681c.042-.4653.085-.9729.085-1.5651zm-11.421-6.9372c3.045 0 5.329 1.9458 6.133 4.6953h-12.182c.803-2.8341 3.088-4.6953 6.049-4.6953z"/></g></svg>
+                        <svg class="h-6" fill="none" viewBox="0 0 274 48" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m0 23c0-10.8423 0-16.26346 3.36827-19.63173s8.78943-3.36827 19.63173-3.36827h2c10.8423 0 16.2635 0 19.6317 3.36827 3.3683 3.36827 3.3683 8.78943 3.3683 19.63173v2c0 10.8423 0 16.2635-3.3683 19.6317-3.3682 3.3683-8.7894 3.3683-19.6317 3.3683h-2c-10.8423 0-16.26346 0-19.63173-3.3683-3.36827-3.3682-3.36827-8.7894-3.36827-19.6317z"
+                                fill="#2787f5" />
+                            <path clip-rule="evenodd"
+                                d="m13.0009 15h-3.5008c-1.00024 0-1.2003.4708-1.2003.9898 0 .9271 1.18686 5.525 5.5262 11.6061 2.8929 4.1529 6.9687 6.4041 10.6776 6.4041 2.2253 0 2.5006-.5 2.5006-1.3612v-3.1388c0-1 .2108-1.1996.9154-1.1996.5193 0 1.4094.2596 3.4864 2.2619 2.3737 2.3731 2.765 3.4377 4.1001 3.4377h3.5008c1.0003 0 1.5004-.5 1.2119-1.4867-.3157-.9834-1.449-2.4103-2.9528-4.1016-.816-.9641-2.0399-2.0023-2.4108-2.5215-.5192-.6674-.3709-.9641 0-1.5573 0 0 4.2652-6.007 4.7103-8.0463.2225-.7417 0-1.2866-1.0587-1.2866h-3.5008c-.8901 0-1.3005.4708-1.5231.9898 0 0-1.7802 4.3384-4.3022 7.1565-.816.8157-1.1869 1.0753-1.632 1.0753-.2225 0-.5446-.2596-.5446-1.0011v-6.9339c0-.89-.2583-1.2866-1.0002-1.2866h-5.5013c-.5562 0-.8908.413-.8908.8045 0 .8436 1.261 1.0382 1.391 3.4113v5.1542c0 1.13-.2042 1.3349-.6492 1.3349-1.1868 0-4.0737-4.3578-5.7859-9.3442-.3355-.9692-.6721-1.3607-1.5668-1.3607z"
+                                fill="#fff" fill-rule="evenodd" />
+                            <g fill="#000">
+                                <path
+                                    d="m81.8929 23.5791c1.9035-.8883 3.1302-2.3688 3.1302-4.653 0-3.4686-3.1725-5.922-7.7409-5.922h-10.5327v21.996h10.998c4.7376 0 8.037-2.5803 8.037-6.0912 0-2.6649-1.7343-4.653-3.8916-5.3298zm-10.2789-6.5565h5.6682c1.692 0 2.8764 1.0152 2.8764 2.4111s-1.1844 2.3688-2.8764 2.3688h-5.6682zm6.1335 13.959h-6.1335v-5.3721h6.1335c1.9035 0 3.1725 1.0998 3.1725 2.7072s-1.269 2.6649-3.1725 2.6649z" />
+                                <path
+                                    d="m103.876 35.0001h6.387l-10.11-11.421 9.264-10.575h-5.795l-7.3603 8.5446h-1.1844v-8.5446h-4.8645v21.996h4.8645v-8.7561h1.1844z" />
+                                <path
+                                    d="m122.679 35.4231c6.895 0 11.76-4.7376 11.76-11.421s-4.865-11.421-11.76-11.421-11.759 4.7376-11.759 11.421 4.864 11.421 11.759 11.421zm0-4.4415c-3.976 0-6.683-2.8341-6.683-6.9795s2.707-6.9795 6.683-6.9795c3.977 0 6.684 2.8341 6.684 6.9795s-2.707 6.9795-6.684 6.9795z" />
+                                <path
+                                    d="m153.388 13.0041v8.6715h-9.856v-8.6715h-4.864v21.996h4.864v-8.883h9.856v8.883h4.865v-21.996z" />
+                                <path d="m169.241 35.0001h4.865v-17.5545h7.614v-4.4415h-20.093v4.4415h7.614z" />
+                                <path
+                                    d="m193.24 12.5811c-4.272 0-8.037 2.1996-9.137 6.0066l4.484.7614c.677-1.3536 2.2-2.6226 4.399-2.6226 2.665 0 4.23 1.9035 4.442 4.7799h-4.738c-6.472 0-9.687 2.8341-9.687 6.8949 0 4.1031 3.173 7.0218 7.657 7.0218 3.595 0 6.006-2.0727 7.064-3.8916l1.015 3.4686h3.596v-12.3516c0-6.3873-3.469-10.0674-9.095-10.0674zm-1.438 18.7389c-2.369 0-3.892-1.2267-3.892-3.1302 0-1.692 1.227-2.8764 4.949-2.8764h4.611c0 3.5955-2.284 6.0066-5.668 6.0066z" />
+                                <path
+                                    d="m221.275 35.0001h6.387l-10.11-11.421 9.264-10.575h-5.795l-7.36 8.5446h-1.185v-8.5446h-4.864v21.996h4.864v-8.7561h1.185z" />
+                                <path d="m235.913 35.0001h4.865v-17.5545h7.614v-4.4415h-20.093v4.4415h7.614z" />
+                                <path
+                                    d="m272.518 23.7483c0-6.345-4.738-11.1672-11.421-11.1672-6.684 0-11.421 4.7799-11.421 11.421s4.737 11.421 11.421 11.421c4.568 0 8.883-2.1573 10.532-6.345l-4.568-.7614c-1.058 1.5651-3.088 2.6649-5.668 2.6649-3.723 0-6.176-2.2842-6.641-5.6682h17.681c.042-.4653.085-.9729.085-1.5651zm-11.421-6.9372c3.045 0 5.329 1.9458 6.133 4.6953h-12.182c.803-2.8341 3.088-4.6953 6.049-4.6953z" />
+                            </g>
+                        </svg>
                     </a>
-                    
+
                     <!-- Search -->
                     <div class="w-60 flex-shrink-0">
                         <div class="relative">
-                            <input type="text" class="w-full h-8 pr-4 pl-8 rounded-lg bg-gray-200 focus:outline-none placeholder-gray-400" placeholder="Поиск">
+                            <input type="text"
+                                class="w-full h-8 pr-4 pl-8 rounded-lg bg-gray-200 focus:outline-none placeholder-gray-400"
+                                placeholder="Поиск">
                             <div class="absolute top-0 left-0 h-full w-8 flex justify-center items-center">
-                                <svg class="w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                <svg class="w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                                    className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                                 </svg>
                             </div>
                         </div>
                     </div>
 
                     <!-- Notifications -->
-                    <div class="h-full">
-                        <div class="hover:bg-gray-200 h-full w-14 ml-2 cursor-pointer flex items-center justify-center group">
-                            <svg class="text-gray-400 w-6 h-6 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                    <div x-data="{ open: false }" class="relative h-full">
+                        <div @click=" open = true "
+                            class="hover:bg-gray-200 h-full w-12 ml-2 cursor-pointer flex items-center justify-center group">
+                            <svg class="text-gray-400 w-6 h-6 group-hover:text-gray-500"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                             </svg>
-                            <div class="absolute top-0 r-0 w-4 h-4 flex justify-center items-center rounded-full text-white text-xs bg-red-500 mt-2 ml-4 select-none ">
-                                1
+                        </div>
+                        <div x-cloak x-show="open" @click.away="open = false" class="absolute top-full left-2">
+                            <div class="shadow-2xl bg-white rounded-b-lg border py-1 shadow-sm" style="width: 470px">
+                                <div class="w-full bg-white flex justify-between px-4 py-1">
+                                    <div class="flex justify-around items-center space-x-1">
+                                        <div class="font-semibold">
+                                            Ваша страница
+                                        </div>
+                                        <div class="mb-1 select-none cursore-pointer">
+                                            .
+                                        </div>
+                                        <div>
+                                            <a class="hover:underline blue-text-1 font-medium" href="">Другие
+                                                источники</a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a class="hover:underline blue-text-1 pl-1 font-medium" href="">Настройки</a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center h-28 text-gray-400 select-none">
+                                    Нет новых уведомлений.
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -59,22 +161,32 @@
                     <!-- Player -->
                     <div class="hover:bg-gray-200 h-full px-3 cursor-pointer flex items-center">
                         <div class="flex items-center mr-4">
-                                <div class="group">
-                                    <svg class="w-6 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
-                                    </svg>
-                                </div>
-                                <div class="group mx-2">
-                                    <svg class="w-6 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                    </svg>
-                                </div>
-                                <div class="group">
-                                    <svg class="w-6 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                    </svg>
-                                </div>
+                            <div class="group">
+                                <svg class="w-6 text-gray-400 group-hover:text-gray-500"
+                                    xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+                                </svg>
+                            </div>
+                            <div class="group mx-2">
+                                <svg class="w-6 text-gray-400 group-hover:text-gray-500"
+                                    xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div class="group">
+                                <svg class="w-6 text-gray-400 group-hover:text-gray-500"
+                                    xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
                         </div>
                         <div class="text-gray-500 truncate max-w-xs select-none " style="max-width: 12rem;">
                             Lofi Hip-Hop Beats - The Light
@@ -84,16 +196,22 @@
 
                 <!-- User -->
                 <div x-data="{ open: false }" class="relative h-full">
-                    <div @click=" open = true " class="hover:bg-gray-200 h-full px-2 cursor-pointer flex items-center justify-center group">
-                        <div class="select-none font-medium truncate font-semibold" style="max-width: 5rem;">
+                    <div @click=" open = true "
+                        class="hover:bg-gray-200 h-full px-2 cursor-pointer flex items-center justify-center group">
+                        <div class="select-none font-medium truncate font-bold" style="max-width: 5rem;">
                             Тима
                         </div>
                         <div class="mx-2 flex-shrink-0">
-                            <img class="w-8 h-8 rounded-full" src="https://sun1-95.userapi.com/s/v1/ig2/r-bw3v_xJtSJgtnnUc6DAm3kCOXmcUl1jFZmXnbjf7vgcjLUu5IYZZhUG_d0vshN_6LWMh7TtbSLclGkFJV6kaYH.jpg?size=200x200&quality=96&crop=397,0,674,674&ava=1" alt="">
+                            <img class="w-8 h-8 rounded-full"
+                                src="https://sun1-95.userapi.com/s/v1/ig2/r-bw3v_xJtSJgtnnUc6DAm3kCOXmcUl1jFZmXnbjf7vgcjLUu5IYZZhUG_d0vshN_6LWMh7TtbSLclGkFJV6kaYH.jpg?size=200x200&quality=96&crop=397,0,674,674&ava=1"
+                                alt="">
                         </div>
                         <div>
-                            <svg class="text-gray-400 w-4 group-hover:text-gray-600" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            <svg class="text-gray-400 w-4 group-hover:text-gray-600" xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
                             </svg>
                         </div>
                     </div>
@@ -103,7 +221,9 @@
                         <div class="bg-white rounded-lg border w-52 py-1 shadow-sm">
                             <a href="#" class="flex items-center px-3 py-1 hover:bg-gray-100">
                                 <div>
-                                    <img class="w-9 h-9 rounded-full" src="https://sun1-95.userapi.com/s/v1/ig2/r-bw3v_xJtSJgtnnUc6DAm3kCOXmcUl1jFZmXnbjf7vgcjLUu5IYZZhUG_d0vshN_6LWMh7TtbSLclGkFJV6kaYH.jpg?size=200x200&quality=96&crop=397,0,674,674&ava=1" alt="Тима">
+                                    <img class="w-9 h-9 rounded-full"
+                                        src="https://sun1-95.userapi.com/s/v1/ig2/r-bw3v_xJtSJgtnnUc6DAm3kCOXmcUl1jFZmXnbjf7vgcjLUu5IYZZhUG_d0vshN_6LWMh7TtbSLclGkFJV6kaYH.jpg?size=200x200&quality=96&crop=397,0,674,674&ava=1"
+                                        alt="Тима">
                                 </div>
                                 <div class="ml-2">
                                     <div class="blue-text-1 text-xs">
@@ -151,14 +271,20 @@
                     <ul>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                 </div>
                                 Моя страница
@@ -166,38 +292,52 @@
                         </li>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                                     </svg>
                                 </div>
                                 Новости
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="flex justify-between items-center px-2 py-1.5 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                            <a href="#"
+                                class="flex justify-between items-center px-2 py-1.5 rounded-lg hover:bg-gray-200 relative group">
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="flex">
                                     <div class="mr-2">
-                                        <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                                        <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                                         </svg>
                                     </div>
                                     <div>
-                                        Мессенджер 
+                                        Мессенджер
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="bg-gray-400 rounded-full w-5 h-5 flex justify-center items-center text-white text-xs font-bold">
+                                    <div
+                                        class="bg-gray-400 rounded-full w-5 h-5 flex justify-center items-center text-white text-xs font-bold">
                                         2
                                     </div>
                                 </div>
@@ -205,14 +345,20 @@
                         </li>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                                     </svg>
                                 </div>
                                 Друзья
@@ -220,15 +366,21 @@
                         </li>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
 
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                                     </svg>
                                 </div>
                                 Сообщества
@@ -236,14 +388,20 @@
                         </li>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                     </svg>
                                 </div>
                                 Фотографии
@@ -251,14 +409,20 @@
                         </li>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
                                     </svg>
                                 </div>
                                 Музыка
@@ -266,14 +430,20 @@
                         </li>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                                     </svg>
                                 </div>
                                 Видео
@@ -281,14 +451,20 @@
                         </li>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                     </svg>
                                 </div>
                                 Работа
@@ -299,29 +475,41 @@
                     <ul>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                                     </svg>
                                 </div>
                                 Закладки
                             </a>
-                        </li>  
+                        </li>
                         <li>
                             <a href="#" class="flex px-2 py-1 rounded-lg hover:bg-gray-200 relative group">
-                                <div class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
-                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                <div
+                                    class=" absolute left-0 top-0 -ml-5 mt-1 transition delay-200 duration-700 opacity-0 group-hover:opacity-100">
+                                    <svg class="w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </div>
                                 <div class="mr-2">
-                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                    <svg class="w-5 blue-text-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                                     </svg>
                                 </div>
                                 Файлы
@@ -342,41 +530,56 @@
                         </li>
                         <li>
                             <div class="relative" x-data="{ open: false }">
-                                <a href="" class="relative text-gray-500 text-xs hover:underline group flex items-center h-full justify-center" style="top: 2px">
+                                <a href=""
+                                    class="relative text-gray-500 text-xs hover:underline group flex items-center h-full justify-center"
+                                    style="top: 2px">
                                     <div @mouseover="open = true" @mouseout="open = false">
                                         Ещё
                                     </div>
                                     <div class="ml-1 mt-0.5">
-                                        <svg class="w-3 h-3 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                        <svg class="w-3 h-3 text-gray-400 group-hover:text-gray-500"
+                                            xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                            fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                clip-rule="evenodd" />
                                         </svg>
                                     </div>
                                 </a>
-                                
+
                                 <!-- More's dropdown -->
-                                <div class="absolute top-5 -left-full -mt-1" x-cloak x-show="open" @mouseover="open = true" @mouseout="open = false">
+                                <div class="absolute top-5 -left-full -mt-1" x-cloak x-show="open"
+                                    @mouseover="open = true" @mouseout="open = false">
                                     <div class="bg-white rounded-lg border w-44 py-1 mt-3 shadow-sm top-full">
-                                        <a href="#" class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
-                                                О Вконтакте
+                                        <a href="#"
+                                            class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
+                                            О Вконтакте
                                         </a>
-                                        <a href="#" class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
-                                                Вакансии
+                                        <a href="#"
+                                            class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
+                                            Вакансии
                                         </a>
-                                        <a href="#" class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
-                                                Правовая информация
+                                        <a href="#"
+                                            class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
+                                            Правовая информация
                                         </a>
-                                        <a href="#" class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
-                                                Защита данных
+                                        <a href="#"
+                                            class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
+                                            Защита данных
                                         </a>
-                                        <a href="#" class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
-                                                Центр информации
+                                        <a href="#"
+                                            class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
+                                            Центр информации
                                         </a>
-                                        <a href="#" class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
-                                                Язык: русский
+                                        <a href="#"
+                                            class="flex items-center px-3 py-1 hover:bg-gray-100 blue-text-1 text-xs">
+                                            Язык: русский
                                         </a>
                                     </div>
                                     <div class="absolute top-0 w-4 h-4 left-0 ml-16 mt-0 overflow-hidden">
-                                        <div class="absolute bg-white border border-gray-300 transform rotate-45 origin-center -bottom-2 mb-px right-0 left-0 h-full"></div>
+                                        <div
+                                            class="absolute bg-white border border-gray-300 transform rotate-45 origin-center -bottom-2 mb-px right-0 left-0 h-full">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -390,21 +593,32 @@
                     <!-- Photo -->
                     <div class="bg-white rounded-lg border p-4 mb-4">
                         <div class="relative group cursor-pointer">
-                            <img class=" w-full rounded page_avatar_img" src="https://sun1-95.userapi.com/s/v1/ig2/r-bw3v_xJtSJgtnnUc6DAm3kCOXmcUl1jFZmXnbjf7vgcjLUu5IYZZhUG_d0vshN_6LWMh7TtbSLclGkFJV6kaYH.jpg?size=200x200&amp;quality=96&amp;crop=397,0,674,674&amp;ava=1" alt="Tima  Akylveren" width="200" height="200">
-                            <div class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
-                                <button class="bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
-                                    <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            <img class=" w-full rounded page_avatar_img"
+                                src="https://sun1-95.userapi.com/s/v1/ig2/r-bw3v_xJtSJgtnnUc6DAm3kCOXmcUl1jFZmXnbjf7vgcjLUu5IYZZhUG_d0vshN_6LWMh7TtbSLclGkFJV6kaYH.jpg?size=200x200&amp;quality=96&amp;crop=397,0,674,674&amp;ava=1"
+                                alt="Tima  Akylveren" width="200" height="200">
+                            <div
+                                class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
+                                <button
+                                    class="opacity-90 hover:opacity-100 bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
+                                    <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M6 18L18 6M6 6l12 12" />
                                     </svg>
                                 </button>
                             </div>
-                            <div class="absolute w-full opacity-0 group-hover:opacity-100 bottom-0 transition delay-100">
-                                <div class="bg-black text-white bg-opacity-50 w-full h-20 pt-5 pb-6 flex items-center justify-center focus:outline-none">
+                            <div
+                                class="absolute w-full opacity-0 group-hover:opacity-100 bottom-0 transition delay-100">
+                                <div
+                                    class="bg-black text-white bg-opacity-50 w-full h-20 pt-5 pb-6 flex items-center justify-center focus:outline-none">
                                     <ul>
                                         <li>
-                                            <a href="" class="flex py-1">
-                                                <svg class="mr-1 w-4" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                                            <a href="" class="opacity-80 hover:opacity-100 flex py-1">
+                                                <svg class="mr-1 w-4" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2"
+                                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
                                                 </svg>
                                                 <div>
                                                     Обновить фотографию
@@ -412,9 +626,12 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="" class="flex py-1">
-                                                <svg class="mr-1 w-4" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                            <a href="" class="opacity-80 hover:opacity-100 flex py-1">
+                                                <svg class="mr-1 w-4" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2"
+                                                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                                                 </svg>
                                                 <div>
                                                     Изменить миниатюру
@@ -422,9 +639,12 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="" class="flex py-1">
-                                                <svg class="mr-1 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z" clip-rule="evenodd" />
+                                            <a href="" class="opacity-80 hover:opacity-100 flex py-1">
+                                                <svg class="mr-1 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                                    viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z"
+                                                        clip-rule="evenodd" />
                                                 </svg>
                                                 <div>
                                                     Добавить эффекты
@@ -436,7 +656,8 @@
                             </div>
                         </div>
                         <div class="pt-3">
-                            <button type="button" class="bg-gray-200 rounded w-full px-3 py-1 text-gray-500 hover:bg-gray-300 ">
+                            <button type="button"
+                                class="bg-gray-200 rounded w-full px-3 py-1 text-gray-500 hover:bg-gray-300 ">
                                 Редактировать
                             </button>
                         </div>
@@ -444,8 +665,10 @@
                             <li class="w-full">
                                 <a href="" class="flex items-center text-gray-500 px-3 py-1 hover:bg-gray-100 w-full">
                                     <div>
-                                        <svg class="text-gray-400 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        <svg class="text-gray-400 w-6 mr-2" xmlns="http://www.w3.org/2000/svg"
+                                            class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg>
                                     </div>
                                     <div>
@@ -456,8 +679,10 @@
                             <li class="w-full">
                                 <a href="" class="flex items-center text-gray-500 px-3 py-1 hover:bg-gray-100 w-full">
                                     <div>
-                                        <svg class="text-gray-400 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                                        <svg class="text-gray-400 w-6 mr-2" xmlns="http://www.w3.org/2000/svg"
+                                            class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
                                         </svg>
                                     </div>
                                     <div>
@@ -468,8 +693,10 @@
                             <li class="w-full">
                                 <a href="" class="flex items-center text-gray-500 px-3 pt-1 hover:bg-gray-100 w-full">
                                     <div>
-                                        <svg class="text-gray-400 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                                        <svg class="text-gray-400 w-6 mr-2" xmlns="http://www.w3.org/2000/svg"
+                                            class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                                         </svg>
                                     </div>
                                     <div>
@@ -489,7 +716,9 @@
                         <div class="grid grid-cols-3 gap-3 p-3">
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-97.userapi.com/s/v1/ig2/Cp72LqA17V8JXr8iJ-xnVVKgvu1YpZ5R7YtaJeFJn2HNTN0p07byPvVWh-qHEPWwxro5WdjK8lpsEU_PB8y674uP.jpg?size=50x50&quality=96&crop=0,230,719,719&ava=1" alt="Harem Visitor">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-97.userapi.com/s/v1/ig2/Cp72LqA17V8JXr8iJ-xnVVKgvu1YpZ5R7YtaJeFJn2HNTN0p07byPvVWh-qHEPWwxro5WdjK8lpsEU_PB8y674uP.jpg?size=50x50&quality=96&crop=0,230,719,719&ava=1"
+                                        alt="Harem Visitor">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Harem</span>
@@ -497,7 +726,9 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-93.userapi.com/s/v1/ig2/dM_lBTX8tlZcFcnTOXGZnJcRbOzXr080h73swVfeYiAE3gxfCchhRH4Nc2n9DEA7D-EHtd4WmzQeKhaD-aZONPU7.jpg?size=50x50&quality=96&crop=11,0,723,723&ava=1" alt="Артемий Мостовой">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-93.userapi.com/s/v1/ig2/dM_lBTX8tlZcFcnTOXGZnJcRbOzXr080h73swVfeYiAE3gxfCchhRH4Nc2n9DEA7D-EHtd4WmzQeKhaD-aZONPU7.jpg?size=50x50&quality=96&crop=11,0,723,723&ava=1"
+                                        alt="Артемий Мостовой">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Артемий</span>
@@ -505,7 +736,9 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-20.userapi.com/s/v1/ig2/SEx6DDQ76jtkrCeMaJxeMhXNRMOxEjo9ThIIqjrGwQ_jDcg9BosZE99n52rzGekGQXVF9VGtDNGU4Y6RAz2iLpAV.jpg?size=50x50&quality=95&crop=417,0,568,568&ava=1" alt="Ксения Еремина">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-20.userapi.com/s/v1/ig2/SEx6DDQ76jtkrCeMaJxeMhXNRMOxEjo9ThIIqjrGwQ_jDcg9BosZE99n52rzGekGQXVF9VGtDNGU4Y6RAz2iLpAV.jpg?size=50x50&quality=95&crop=417,0,568,568&ava=1"
+                                        alt="Ксения Еремина">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Ксения</span>
@@ -513,7 +746,9 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-18.userapi.com/s/v1/ig2/NclUPYIKW5n0h6i7i8YwCWFYzGrRkilQWFdXYEyD3i7zVJ_2XlIXPqqPgnEXSOvS1UtVE224eQXaOxIC1AgufwfV.jpg?size=50x50&quality=95&crop=8,236,645,645&ava=1" alt="Иван Семёненко">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-18.userapi.com/s/v1/ig2/NclUPYIKW5n0h6i7i8YwCWFYzGrRkilQWFdXYEyD3i7zVJ_2XlIXPqqPgnEXSOvS1UtVE224eQXaOxIC1AgufwfV.jpg?size=50x50&quality=95&crop=8,236,645,645&ava=1"
+                                        alt="Иван Семёненко">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Иван</span>
@@ -521,7 +756,9 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-28.userapi.com/s/v1/ig2/ItIQf0qPRlSC9zwXsn0smGDPUYD8dO7rgWjE8KfRsHE2IvYyf6BPzagPDSnzq1iQWtYpgtnuMKvFgAugbRyvt-1p.jpg?size=50x50&quality=95&crop=258,0,485,485&ava=1" alt="Mitaell Russian">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-28.userapi.com/s/v1/ig2/ItIQf0qPRlSC9zwXsn0smGDPUYD8dO7rgWjE8KfRsHE2IvYyf6BPzagPDSnzq1iQWtYpgtnuMKvFgAugbRyvt-1p.jpg?size=50x50&quality=95&crop=258,0,485,485&ava=1"
+                                        alt="Mitaell Russian">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Mitaell</span>
@@ -529,23 +766,28 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-97.userapi.com/s/v1/ig2/rmZENa9zqdhOulYPRynOrjfZrKZ8VyUYwnu3hI-RgRZ6GsKNeyBeSPo3-JWb-1VXr-57tOgJ3x4qbl6Wi2Dof53C.jpg?size=100x100&quality=96&crop=98,95,478,478&ava=1" alt="Александр Сизов">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-97.userapi.com/s/v1/ig2/rmZENa9zqdhOulYPRynOrjfZrKZ8VyUYwnu3hI-RgRZ6GsKNeyBeSPo3-JWb-1VXr-57tOgJ3x4qbl6Wi2Dof53C.jpg?size=100x100&quality=96&crop=98,95,478,478&ava=1"
+                                        alt="Александр Сизов">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Александр</span>
                                 </div>
                             </a>
-                            
+
                         </div>
                         <div class="bg-gray-200 h-px">
                         </div>
                         <div class="flex justify-between items-center">
-                            <a href="" class="flex-1 pl-3 pt-2">Друзья онлайн<span class="ml-2 text-gray-400">16</span></a>
+                            <a href="" class="flex-1 pl-3 pt-2">Друзья онлайн<span
+                                    class="ml-2 text-gray-400">16</span></a>
                         </div>
                         <div class="grid grid-cols-3 gap-3 p-3">
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-90.userapi.com/s/v1/ig2/2W2N23Su7z8Dvt5RTG3lcArobrqt2GWDEg5QlBT5hfsbWKND8o3LM11C4xTNvsUsojTK52wDWWYyangLomQvGIdc.jpg?size=50x50&quality=96&crop=9,6,1264,1264&ava=1" alt="Фоксия Вудс">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-90.userapi.com/s/v1/ig2/2W2N23Su7z8Dvt5RTG3lcArobrqt2GWDEg5QlBT5hfsbWKND8o3LM11C4xTNvsUsojTK52wDWWYyangLomQvGIdc.jpg?size=50x50&quality=96&crop=9,6,1264,1264&ava=1"
+                                        alt="Фоксия Вудс">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Фоксия</span>
@@ -553,7 +795,9 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-87.userapi.com/s/v1/if1/yLz67OTE2rGWr91skUMvTa_dejBMTvC_AWqjMk4ZQBHhQTZeLnQqoV7aghcaO1hq92VQ78VZ.jpg?size=50x50&quality=96&crop=260,154,1228,1228&ava=1" alt="Ivan Khomenko">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-87.userapi.com/s/v1/if1/yLz67OTE2rGWr91skUMvTa_dejBMTvC_AWqjMk4ZQBHhQTZeLnQqoV7aghcaO1hq92VQ78VZ.jpg?size=50x50&quality=96&crop=260,154,1228,1228&ava=1"
+                                        alt="Ivan Khomenko">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Ivan</span>
@@ -561,7 +805,9 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-27.userapi.com/s/v1/ig2/WejSYYcgDciJ4zlhbMp_N6D-jisP4n1w76sFlkYHaT_8pKN0P-CsJ3LhZu0yqG3nClJ1QNYJ3EyyJfCh-VQPxcY5.jpg?size=50x50&quality=96&crop=943,122,917,917&ava=1" alt="Антон Федотов">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-27.userapi.com/s/v1/ig2/WejSYYcgDciJ4zlhbMp_N6D-jisP4n1w76sFlkYHaT_8pKN0P-CsJ3LhZu0yqG3nClJ1QNYJ3EyyJfCh-VQPxcY5.jpg?size=50x50&quality=96&crop=943,122,917,917&ava=1"
+                                        alt="Антон Федотов">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Антон</span>
@@ -569,7 +815,9 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-17.userapi.com/s/v1/ig2/6uQUPpLKGoI27kcaVefiKH9DaCeywRt3UjNfT7wjce0ehQR1nIpYxaXKtAK8UigasvWlY4q0yLpLJARlN0ZhMhyo.jpg?size=100x100&quality=95&crop=252,0,720,720&ava=1" alt="Эльдар Шишкин">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-17.userapi.com/s/v1/ig2/6uQUPpLKGoI27kcaVefiKH9DaCeywRt3UjNfT7wjce0ehQR1nIpYxaXKtAK8UigasvWlY4q0yLpLJARlN0ZhMhyo.jpg?size=100x100&quality=95&crop=252,0,720,720&ava=1"
+                                        alt="Эльдар Шишкин">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Эльдар</span>
@@ -577,7 +825,9 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-88.userapi.com/s/v1/ig2/4NPj4k2LA-yzfpjRlf7_7OEoV0Xf8SY26upjcCJci5QWoAhfVwqotUWsgZfWmRUdNBDF7aglkD743phiRCO8zkRS.jpg?size=100x100&quality=96&crop=139,303,1380,1380&ava=1" alt="Валентин Тестов">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-88.userapi.com/s/v1/ig2/4NPj4k2LA-yzfpjRlf7_7OEoV0Xf8SY26upjcCJci5QWoAhfVwqotUWsgZfWmRUdNBDF7aglkD743phiRCO8zkRS.jpg?size=100x100&quality=96&crop=139,303,1380,1380&ava=1"
+                                        alt="Валентин Тестов">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Валентин</span>
@@ -585,15 +835,17 @@
                             </a>
                             <a href="">
                                 <div class="px-1 mb-1 cursor-pointer">
-                                    <img class="w-12 rounded-full" src="https://sun1-27.userapi.com/s/v1/ig2/4oz131kZygpkVmGJgYC0WupNCH9CoiWnMOasUyRKZoTQyCPVAlK9AvtNBEwQGhHmcEbFcaARhCj40B3PL9eCxuXi.jpg?size=100x100&quality=96&crop=133,3,200,200&ava=1" alt="Lina Zhar">
+                                    <img class="w-12 rounded-full"
+                                        src="https://sun1-27.userapi.com/s/v1/ig2/4oz131kZygpkVmGJgYC0WupNCH9CoiWnMOasUyRKZoTQyCPVAlK9AvtNBEwQGhHmcEbFcaARhCj40B3PL9eCxuXi.jpg?size=100x100&quality=96&crop=133,3,200,200&ava=1"
+                                        alt="Lina Zhar">
                                 </div>
                                 <div class="text-center truncate mr-2">
                                     <span class="blue-text-1 hover:underline truncate ">Lina</span>
                                 </div>
                             </a>
-                            
+
                         </div>
-                        
+
                     </div>
 
                     <!-- Subscriptions -->
@@ -608,7 +860,9 @@
                         <ul class="px-3 pb-3 pt-1 space-y-3">
                             <li class="flex">
                                 <a href="#" class="w-10 h-10 px-1 block flex-shrink-0 mr-1">
-                                    <div class="rounded-full w-10 h-10 bg-center bg-cover" style="background-image:url(https://sun1-84.userapi.com/s/v1/if2/zJSPZbBR6pKCqKlUlS1OSF5wQw4Imd2vFp_jvU91TCr0b4fQq0krxPbBWoWNdoxleXaBy2UV9cFxfddfQDE3sKYq.jpg?size=100x100&quality=96&crop=0,0,1667,1667&ava=1)" alt="Подслушано у программиста"></div>
+                                    <div class="rounded-full w-10 h-10 bg-center bg-cover"
+                                        style="background-image:url(https://sun1-84.userapi.com/s/v1/if2/zJSPZbBR6pKCqKlUlS1OSF5wQw4Imd2vFp_jvU91TCr0b4fQq0krxPbBWoWNdoxleXaBy2UV9cFxfddfQDE3sKYq.jpg?size=100x100&quality=96&crop=0,0,1667,1667&ava=1)"
+                                        alt="Подслушано у программиста"></div>
                                 </a>
                                 <div class="pl-2 flex-1 overflow-hidden">
                                     <div class=" mb-1 truncate">
@@ -623,7 +877,9 @@
                             </li>
                             <li class="flex">
                                 <a href="#" class="w-10 h-10 px-1 block flex-shrink-0 mr-1">
-                                    <div class="rounded-full w-10 h-10 bg-center bg-cover" style="background-image:url(https://sun1-56.userapi.com/s/v1/if1/zfGIjAZRyGz9tixsPPdqgeJSVH1lbxUQGhPpHY8hVpbLA4W1dHpfFn7zIbNh1yYtkM6GE9iL.jpg?size=50x50&quality=96&crop=75,0,300,300&ava=1)" alt="Royal Arts™"></div>
+                                    <div class="rounded-full w-10 h-10 bg-center bg-cover"
+                                        style="background-image:url(https://sun1-56.userapi.com/s/v1/if1/zfGIjAZRyGz9tixsPPdqgeJSVH1lbxUQGhPpHY8hVpbLA4W1dHpfFn7zIbNh1yYtkM6GE9iL.jpg?size=50x50&quality=96&crop=75,0,300,300&ava=1)"
+                                        alt="Royal Arts™"></div>
                                 </a>
                                 <div class="pl-2 flex-1 overflow-hidden">
                                     <div class=" mb-1 truncate">
@@ -638,7 +894,9 @@
                             </li>
                             <li class="flex">
                                 <a href="#" class="w-10 h-10 px-1 block flex-shrink-0 mr-1">
-                                    <div class="rounded-full w-10 h-10 bg-center bg-cover" style="background-image:url(https://sun1-85.userapi.com/s/v1/if1/fESBs-Lu5jOKDBGL0VRYesAAMLWFeYgTnxDRROpPIFmxcp3Yv5ExONtJ9pTkuiRaKZvTtHLj.jpg?size=100x100&quality=96&crop=31,31,897,897&ava=1)" alt="Netflix"></div>
+                                    <div class="rounded-full w-10 h-10 bg-center bg-cover"
+                                        style="background-image:url(https://sun1-85.userapi.com/s/v1/if1/fESBs-Lu5jOKDBGL0VRYesAAMLWFeYgTnxDRROpPIFmxcp3Yv5ExONtJ9pTkuiRaKZvTtHLj.jpg?size=100x100&quality=96&crop=31,31,897,897&ava=1)"
+                                        alt="Netflix"></div>
                                 </a>
                                 <div class="pl-2 flex-1 overflow-hidden">
                                     <div class=" mb-1 truncate">
@@ -653,7 +911,9 @@
                             </li>
                             <li class="flex">
                                 <a href="#" class="w-10 h-10 px-1 block flex-shrink-0 mr-1">
-                                    <div class="rounded-full w-10 h-10 bg-center bg-cover" style="background-image:url(https://sun1-26.userapi.com/s/v1/if1/vuR-O8CpSmsfPAqr5oe1EkV94AhPfGwFa3C8eBFVTIDL5iUxy3uQRsDwYCeXseX9Bxsomjq3.jpg?size=50x50&quality=96&crop=168,156,888,888&ava=1)" alt="Reddit"></div>
+                                    <div class="rounded-full w-10 h-10 bg-center bg-cover"
+                                        style="background-image:url(https://sun1-26.userapi.com/s/v1/if1/vuR-O8CpSmsfPAqr5oe1EkV94AhPfGwFa3C8eBFVTIDL5iUxy3uQRsDwYCeXseX9Bxsomjq3.jpg?size=50x50&quality=96&crop=168,156,888,888&ava=1)"
+                                        alt="Reddit"></div>
                                 </a>
                                 <div class="pl-2 flex-1 overflow-hidden">
                                     <div class=" mb-1 truncate">
@@ -668,7 +928,9 @@
                             </li>
                             <li class="flex">
                                 <a href="#" class="w-10 h-10 px-1 block flex-shrink-0 mr-1">
-                                    <div class="rounded-full w-10 h-10 bg-center bg-cover" style="background-image:url(https://sun1-28.userapi.com/s/v1/if1/QVgaLoM0AvXIY4nChGelB4dDSskHbeZ_y4Q9Das_YkdIWMA5fXUxe34-Mp_3jjDKmko9l9cN.jpg?size=50x50&quality=96&crop=122,13,1090,1090&ava=1)" alt="Библиотека программиста"></div>
+                                    <div class="rounded-full w-10 h-10 bg-center bg-cover"
+                                        style="background-image:url(https://sun1-28.userapi.com/s/v1/if1/QVgaLoM0AvXIY4nChGelB4dDSskHbeZ_y4Q9Das_YkdIWMA5fXUxe34-Mp_3jjDKmko9l9cN.jpg?size=50x50&quality=96&crop=122,13,1090,1090&ava=1)"
+                                        alt="Библиотека программиста"></div>
                                 </a>
                                 <div class="pl-2 flex-1 overflow-hidden">
                                     <div class=" mb-1 truncate">
@@ -683,7 +945,7 @@
                             </li>
                         </ul>
                     </div>
-                    
+
                 </div>
 
                 <!-- Right -->
@@ -715,7 +977,7 @@
                                     День рождения:
                                 </div>
                                 <div class="col-span-2 blue-text-1">
-                                    <a class="hover:underline"  href="">
+                                    <a class="hover:underline" href="">
                                         6 декабря
                                     </a>
                                 </div>
@@ -741,185 +1003,191 @@
                                 </div>
                             </div>
 
-                        <!-- More -->
-                        <button x-on:click="open = !open" class="grid grid-cols-3 mb-2 gap-2 w-full py-2 text-left blue-text-1 rounded-lg hover:bg-gray-100 focus:outline-none">
+                            <!-- More -->
+                            <button x-on:click="open = !open"
+                                class="grid grid-cols-3 mb-2 gap-2 w-full py-2 text-left blue-text-1 rounded-lg hover:bg-gray-100 focus:outline-none">
                                 <div></div>
                                 <div class="col-span-2">
                                     <div x-show=" open === true" x-cloak>Скрыть подробную информацию</div>
                                     <div x-show=" open === false">Показать подробную информацию</div>
                                 </div>
-                        </button>
+                            </button>
 
-                        <!-- Contact Info -->
-                        <div x-show="open"  x-cloak class="group">
-                            <div class="relative flex items-center justify-center mb-2">
-                                <div class="font-medium">
-                                    Основная информация
+                            <!-- Contact Info -->
+                            <div x-show="open" x-cloak class="group">
+                                <div class="relative flex items-center justify-center mb-2">
+                                    <div class="font-medium">
+                                        Основная информация
+                                    </div>
+                                    <div class="flex-1">
+                                        <div class="h-px bg-gray-300 mx-2"></div>
+                                    </div>
+                                    <div class="absolute top-0 right-0">
+                                        <a href=""
+                                            class="opacity-0 text-gray-400 bg-white px-1 group-hover:opacity-100 transition delay-100 hover:underline">Редактировать</a>
+                                    </div>
                                 </div>
-                                <div class="flex-1">
-                                    <div class="h-px bg-gray-300 mx-2"></div>
-                                </div>
-                                <div class="absolute top-0 right-0">
-                                    <a href="" class="opacity-0 text-gray-400 bg-white px-1 group-hover:opacity-100 transition delay-100 hover:underline">Редактировать</a>
-                                </div>
-                            </div>
 
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div class="text-gray-500">
-                                    Родной город:
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div class="text-gray-500">
+                                        Родной город:
+                                    </div>
+                                    <div class="col-span-2 blue-text-1">
+                                        <a class="hover:underline" href="">
+                                            Москва
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="col-span-2 blue-text-1">
-                                    <a class="hover:underline" href="">
-                                        Москва
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div class="text-gray-500">
-                                    Языки:
-                                </div>
-                                <div class="col-span-2 blue-text-1">
-                                    <a class="hover:underline" href="https://github.com/TimProger">
-                                        Русский
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Education -->
-                        <div x-show="open"  x-cloak class="group">
-                            <div class="relative flex items-center justify-center mb-2">
-                                <div class="font-medium ">
-                                    Образование
-                                </div>
-                                <div class="flex-1">
-                                    <div class="h-px bg-gray-300 mx-2"></div>
-                                </div>
-                                <div class="absolute top-0 right-0">
-                                    <a href="" class="opacity-0 text-gray-400 bg-white px-1 group-hover:opacity-100 transition delay-100 hover:underline">Редактировать</a>
-                                </div>
-                            </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div class="text-gray-500">
-                                    Школа
-                                </div>
-                                <div class="col-span-2 blue-text-1">
-                                    <a class="hover:underline" href="">
-                                        Международная академия информационных технологий «ИТ ХАБ» (IThub College)
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div>
-                                </div>
-                                <div class="col-span-2">
-                                    Москва, с 2020 г.
-                                </div>
-                            </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div>
-                                </div>
-                                <div class="col-span-2 blue-text-1">
-                                    <a class="hover:underline" href="">
-                                        Web и мультимедийная разработка
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- About Me -->
-                        <div x-show="open"  x-cloak class="group">
-                            <div class="relative flex items-center justify-center mb-2">
-                                <div class="font-medium">
-                                    Личная информация
-                                </div>
-                                <div class="flex-1">
-                                    <div class="h-px bg-gray-300 mx-2"></div>
-                                </div>
-                                <div class="absolute top-0 right-0">
-                                    <a href="" class="opacity-0 text-gray-400 bg-white px-1 group-hover:opacity-100 transition delay-100 hover:underline">Редактировать</a>
-                                </div>
-                            </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div class="text-gray-500">
-                                    Деятельность:
-                                </div>
-                                <div class="col-span-2 blue-text-1">
-                                    <a class="hover:underline" href="">
-                                        Front-end разработчик
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div class="text-gray-500">
-                                    Интересы:
-                                </div>
-                                <div class="col-span-2">
-                                    <div>
-                                        <a class="hover:underline blue-text-1" href="">
-                                            Кодинг</a>,
-                                        <a class="hover:underline blue-text-1" href="">
-                                            НРИ</a>,
-                                        <a class="hover:underline blue-text-1" href="">
-                                            ККИ</a>,
-                                        <a class="hover:underline blue-text-1" href="">
-                                            фильмы и сериалы жанра фентези</a>.
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div class="text-gray-500">
+                                        Языки:
+                                    </div>
+                                    <div class="col-span-2 blue-text-1">
+                                        <a class="hover:underline" href="https://github.com/TimProger">
+                                            Русский
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div class="text-gray-500">
-                                    Любимая музыка:
+
+                            <!-- Education -->
+                            <div x-show="open" x-cloak class="group">
+                                <div class="relative flex items-center justify-center mb-2">
+                                    <div class="font-medium ">
+                                        Образование
+                                    </div>
+                                    <div class="flex-1">
+                                        <div class="h-px bg-gray-300 mx-2"></div>
+                                    </div>
+                                    <div class="absolute top-0 right-0">
+                                        <a href=""
+                                            class="opacity-0 text-gray-400 bg-white px-1 group-hover:opacity-100 transition delay-100 hover:underline">Редактировать</a>
+                                    </div>
                                 </div>
-                                <div class="col-span-2 blue-text-1">
-                                    <a class="hover:underline" href="">
-                                        Wolf Totem (feat. Jacoby Shaddix of Papa Roach) The HU feat. Papa Roach
-                                    </a>
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div class="text-gray-500">
+                                        Школа
+                                    </div>
+                                    <div class="col-span-2 blue-text-1">
+                                        <a class="hover:underline" href="">
+                                            Международная академия информационных технологий «ИТ ХАБ» (IThub College)
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div class="text-gray-500">
-                                    Любимые фильмы:
-                                </div>
-                                <div class="col-span-2">
+                                <div class="grid grid-cols-3 gap-2 mb-2">
                                     <div>
-                                        <a class="hover:underline blue-text-1" href="">
-                                            Властелин колец</a>,
-                                        <a class="hover:underline blue-text-1" href="">
-                                            Хоббит</a>,
-                                        <a class="hover:underline blue-text-1" href="">
-                                            Звёздные войны</a>,
-                                        <a class="hover:underline blue-text-1" href="">
-                                            Монти Пайтон и священный грааль</a>.
+                                    </div>
+                                    <div class="col-span-2">
+                                        Москва, с 2020 г.
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div>
+                                    </div>
+                                    <div class="col-span-2 blue-text-1">
+                                        <a class="hover:underline" href="">
+                                            Web и мультимедийная разработка
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div class="text-gray-500">
-                                    Любимые книги:
+
+                            <!-- About Me -->
+                            <div x-show="open" x-cloak class="group">
+                                <div class="relative flex items-center justify-center mb-2">
+                                    <div class="font-medium">
+                                        Личная информация
+                                    </div>
+                                    <div class="flex-1">
+                                        <div class="h-px bg-gray-300 mx-2"></div>
+                                    </div>
+                                    <div class="absolute top-0 right-0">
+                                        <a href=""
+                                            class="opacity-0 text-gray-400 bg-white px-1 group-hover:opacity-100 transition delay-100 hover:underline">Редактировать</a>
+                                    </div>
                                 </div>
-                                <div class="col-span-2">
-                                    <div>
-                                        <a class="hover:underline blue-text-1" href="">
-                                            Последнее желание</a>,
-                                        <a class="hover:underline blue-text-1" href="">
-                                            меч предназначения</a>,
-                                        <a class="hover:underline blue-text-1" href="">
-                                            кровь эльфов</a>
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div class="text-gray-500">
+                                        Деятельность:
+                                    </div>
+                                    <div class="col-span-2 blue-text-1">
+                                        <a class="hover:underline" href="">
+                                            Front-end разработчик
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div class="text-gray-500">
+                                        Интересы:
+                                    </div>
+                                    <div class="col-span-2">
+                                        <div>
+                                            <a class="hover:underline blue-text-1" href="">
+                                                Кодинг</a>,
+                                            <a class="hover:underline blue-text-1" href="">
+                                                НРИ</a>,
+                                            <a class="hover:underline blue-text-1" href="">
+                                                ККИ</a>,
+                                            <a class="hover:underline blue-text-1" href="">
+                                                фильмы и сериалы жанра фентези</a>.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div class="text-gray-500">
+                                        Любимая музыка:
+                                    </div>
+                                    <div class="col-span-2 blue-text-1">
+                                        <a class="hover:underline" href="">
+                                            Wolf Totem (feat. Jacoby Shaddix of Papa Roach) The HU feat. Papa Roach
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div class="text-gray-500">
+                                        Любимые фильмы:
+                                    </div>
+                                    <div class="col-span-2">
+                                        <div>
+                                            <a class="hover:underline blue-text-1" href="">
+                                                Властелин колец</a>,
+                                            <a class="hover:underline blue-text-1" href="">
+                                                Хоббит</a>,
+                                            <a class="hover:underline blue-text-1" href="">
+                                                Звёздные войны</a>,
+                                            <a class="hover:underline blue-text-1" href="">
+                                                Монти Пайтон и священный грааль</a>.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div class="text-gray-500">
+                                        Любимые книги:
+                                    </div>
+                                    <div class="col-span-2">
+                                        <div>
+                                            <a class="hover:underline blue-text-1" href="">
+                                                Последнее желание</a>,
+                                            <a class="hover:underline blue-text-1" href="">
+                                                меч предназначения</a>,
+                                            <a class="hover:underline blue-text-1" href="">
+                                                кровь эльфов</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-2 mb-2">
+                                    <div class="text-gray-500">
+                                        О себе:
+                                    </div>
+                                    <div class="col-span-2">
+                                        <div>
+                                            Изучаю Front-end разработку, делаю ботов для Telegram, начал изучение
+                                            SQL.<br />Мой гит - <a class="hover:underline blue-text-1"
+                                                href="https://github.com/TimProger">https://github.com/TimProger</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid grid-cols-3 gap-2 mb-2">
-                                <div class="text-gray-500">
-                                    О себе:
-                                </div>
-                                <div class="col-span-2">
-                                    <div>
-                                        Изучаю Front-end разработку, делаю ботов для Telegram, начал изучение SQL.<br/>Мой гит - <a class="hover:underline blue-text-1" href="https://github.com/TimProger">https://github.com/TimProger</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         </div>
 
 
@@ -966,57 +1234,78 @@
                                 </div>
                             </a>
                         </div>
-                        
+
                     </div>
 
                     <!-- Photos -->
                     <div class="bg-white rounded-lg border mb-4">
-                            <div class="flex justify-between items-center">
-                                <a href="" class="flex-1 pl-3 pt-3 pb-1">Мои фотографии<span class="ml-2 text-gray-400">23</span></a>
-                                <a href="" class="pr-6 pt-3 pb-1 text-gray-400 hover:underline ">показать на карте</a>
-                            </div>
-                        <div class="p-3 pt-2">
+                        <div class="flex justify-between items-center px-5">
+                            <a href="" class="flex-1 pt-3 pb-2">Мои фотографии<span
+                                    class="ml-2 text-gray-400">23</span></a>
+                            <a href="" class="pt-3 pb-1 text-gray-400 hover:underline ">показать на карте</a>
+                        </div>
+                        <div class="p-5 pt-2">
                             <div class="grid grid-cols-4 gap-2">
                                 <div class="relative group pt-full">
-                                    <div class="absolute inset-0 cursor-pointer" style="background-position: center; background-image: url(https://sun9-37.userapi.com/impg/jKQDLNgIdHDgkcWRauqvx6O8-7AiXshhvnBjDg/VCEdeI7uWtU.jpg?size=200x133&quality=96&crop=92,0,1015,675&sign=ef05eaeff509da2005b27a22745bc020&type=album);">
+                                    <div class="absolute inset-0 cursor-pointer"
+                                        style="background-position: center; background-image: url(https://sun9-37.userapi.com/impg/jKQDLNgIdHDgkcWRauqvx6O8-7AiXshhvnBjDg/VCEdeI7uWtU.jpg?size=200x133&quality=96&crop=92,0,1015,675&sign=ef05eaeff509da2005b27a22745bc020&type=album);">
                                     </div>
-                                    <div class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
-                                        <button class="bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
-                                            <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                    <div
+                                        class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
+                                        <button
+                                            class="bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
+                                            <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M6 18L18 6M6 6l12 12" />
                                             </svg>
                                         </button>
                                     </div>
                                 </div>
                                 <div class="relative group pt-full">
-                                    <div class="absolute inset-0 cursor-pointer" style="background-position: center; background-image: url(https://sun9-70.userapi.com/impf/c841338/v841338810/dfae/-YYXUinORG8.jpg?size=200x133&quality=96&crop=150,0,1660,1104&sign=c95bef58b06ac2bddc082e3b69ede5da&type=album);">
+                                    <div class="absolute inset-0 cursor-pointer"
+                                        style="background-position: center; background-image: url(https://sun9-70.userapi.com/impf/c841338/v841338810/dfae/-YYXUinORG8.jpg?size=200x133&quality=96&crop=150,0,1660,1104&sign=c95bef58b06ac2bddc082e3b69ede5da&type=album);">
                                     </div>
-                                    <div class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
-                                        <button class="bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
-                                            <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                    <div
+                                        class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
+                                        <button
+                                            class="bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
+                                            <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M6 18L18 6M6 6l12 12" />
                                             </svg>
                                         </button>
                                     </div>
                                 </div>
                                 <div class="relative group pt-full">
-                                    <div class="absolute inset-0 cursor-pointer" style="background-position: center; background-image: url(https://sun9-3.userapi.com/impf/c840121/v840121827/20e14/0-QzQ7dU5y8.jpg?size=200x133&quality=96&crop=150,0,1660,1104&sign=8938612aa2d1ec2a8957e1e3342a6813&type=album);">
+                                    <div class="absolute inset-0 cursor-pointer"
+                                        style="background-position: center; background-image: url(https://sun9-3.userapi.com/impf/c840121/v840121827/20e14/0-QzQ7dU5y8.jpg?size=200x133&quality=96&crop=150,0,1660,1104&sign=8938612aa2d1ec2a8957e1e3342a6813&type=album);">
                                     </div>
-                                    <div class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
-                                        <button class="bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
-                                            <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                    <div
+                                        class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
+                                        <button
+                                            class="bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
+                                            <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M6 18L18 6M6 6l12 12" />
                                             </svg>
                                         </button>
                                     </div>
                                 </div>
                                 <div class="relative group pt-full">
-                                    <div class="absolute inset-0 cursor-pointer" style="background-position: center; background-image: url(https://sun9-59.userapi.com/impf/c840121/v840121827/20e0a/wGFOWEGwgRE.jpg?size=200x133&quality=96&crop=150,0,1660,1104&sign=77e6ba2d7d44fe60e5541770cad2e97c&type=album);">
+                                    <div class="absolute inset-0 cursor-pointer"
+                                        style="background-position: center; background-image: url(https://sun9-59.userapi.com/impf/c840121/v840121827/20e0a/wGFOWEGwgRE.jpg?size=200x133&quality=96&crop=150,0,1660,1104&sign=77e6ba2d7d44fe60e5541770cad2e97c&type=album);">
                                     </div>
-                                    <div class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
-                                        <button class="bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
-                                            <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                    <div
+                                        class="absolute top-0 right-0 opacity-0 transition delay-10 duration-10 group-hover:opacity-100">
+                                        <button
+                                            class="bg-black text-white rounded-tr bg-opacity-50 rounded-bl-sm w-4 h-4 flex items-center justify-center focus:outline-none">
+                                            <svg class="w-3" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M6 18L18 6M6 6l12 12" />
                                             </svg>
                                         </button>
                                     </div>
@@ -1024,18 +1313,449 @@
                             </div>
                         </div>
                     </div>
+                    <div class="bg-white rounded-lg border mb-4">
+                        <div class="px-4 flex items-center h">
+                            <div class="w-7">
+                                <img class="w-7 rounded-full"
+                                    src="https://sun1-95.userapi.com/s/v1/ig2/IOYUXwzk6qMbYTM3kBy81FdC_-rmv__M4gQsk-6MPaW3q3tRPnObCVygm4OTgV_DTZg-yBE38kVTURjsnO314Rv3.jpg?size=50x50&quality=96&crop=397,0,674,674&ava=1"
+                                    alt="">
+                            </div>
+                            <input type="text" placeholder="Что у вас нового?" class="outline-none pl-3 h-14 w-6/12">
+                            <div class="space-x-4 flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-gray-400 cursor-pointer"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-gray-400 cursor-pointer"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-gray-400 cursor-pointer"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-gray-400 cursor-pointer"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                                <div class="text-gray-200 text-xs select-none">|</div>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-gray-400 cursor-pointer"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-gray-400 cursor-pointer"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                                </svg>
+                            </div>
+                        </div>
+
+                    </div>
 
                     <!-- Posts -->
                     <div class="bg-white rounded-lg border mb-4">
+                        <div class="px-4 py-3">
+                            <!-- Post's header -->
+                            <div class="flex justify-between">
+                                <div class="flex items-center">
+                                    <a class="flex-shrink-0 mr-4">
+                                        <img class="w-13 rounded-full cursor-pointer"
+                                            src="https://sun1-95.userapi.com/s/v1/ig2/IOYUXwzk6qMbYTM3kBy81FdC_-rmv__M4gQsk-6MPaW3q3tRPnObCVygm4OTgV_DTZg-yBE38kVTURjsnO314Rv3.jpg?size=50x50&quality=96&crop=397,0,674,674&ava=1"
+                                            alt="Тима Акылверен">
+                                    </a>
+                                    <div>
+                                        <a class="font-semibold hover:underline blue-text-1 cursor-pointer mb-1">
+                                            Тима Акылверен
+                                        </a>
+                                        <div class="text-gray-500 hover:underline cursor-pointer">
+                                            28 сен в 19:38
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Post's dropdown -->
+                                <div class="p-2 relative" x-data="{ open: false }">
+                                    <svg @mouseover="open = true" @mouseout="open = false"
+                                        class="text-gray-400 w-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                                    </svg>
+                                    <div class="absolute top-5 -left-full -ml-20 mt-1" x-cloak x-show="open"
+                                        @mouseover="open = true" @mouseout="open = false">
+                                        <div
+                                            class="bg-white rounded-lg border w-44 py-1 mt-3 shadow-sm top-full shadow-2xl">
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Удалить запись
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Архивировать запись
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Сохранить в закладках
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Закрепить
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Выключить комментарии
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-2">
+                                <div class="font-medium">
+                                    Неадаптированные под мобильные устройства заметки сделанные для практики работы с
+                                    LocalStorage<br><br>
 
+                                    Сайт —> <a class="hover:underline blue-text-1"
+                                        href="https://notewrite.herokuapp.com/">https://notewrite.herokuapp.com/</a><br>
+                                    Репозиторий —> <a class="hover:underline blue-text-1"
+                                        href="https://github.com/TimProger/notewrite">https://github.com/TimProger/notewrite</a>
+                                </div>
+                                <div class="grid grid-cols-3 pt-3">
+                                    <div class="col-span-3">
+                                        <img class="select-none cursor-pointer"
+                                            src="https://sun9-35.userapi.com/impg/wndArNTwaQjgzcP56JsHXhTwQ6Kep3VQR6GpLA/A9LmT3CXm_c.jpg?size=604x289&quality=96&sign=2d5f755dbe436d5f0194ff9a81c7e438&type=album"
+                                            alt="">
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between mt-3">
+                                <div class="flex justify-between space-x-2">
+                                    <div x-data="{ liked: false }" @click="liked = !liked" x-cloak>
+                                        <div x-show="liked">
+                                            <button
+                                                class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500"
+                                                    viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                                <p>3</p>
+                                            </button>
+                                        </div>
+                                        <div x-show="! liked">
+                                            <button
+                                                class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2"
+                                                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                                </svg>
+                                                <p>2</p>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                                        </svg>
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between w-9 text-xs-upd text-gray-400 select-none ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-300"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    50
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg border mb-4">
+                        <div class="px-4 py-3">
+                            <!-- Post's header -->
+                            <div class="flex justify-between">
+                                <div class="flex items-center">
+                                    <a class="flex-shrink-0 mr-4">
+                                        <img class="w-13 rounded-full cursor-pointer"
+                                            src="https://sun1-95.userapi.com/s/v1/ig2/IOYUXwzk6qMbYTM3kBy81FdC_-rmv__M4gQsk-6MPaW3q3tRPnObCVygm4OTgV_DTZg-yBE38kVTURjsnO314Rv3.jpg?size=50x50&quality=96&crop=397,0,674,674&ava=1"
+                                            alt="Тима Акылверен">
+                                    </a>
+                                    <div>
+                                        <a class="font-semibold hover:underline blue-text-1 cursor-pointer mb-1">
+                                            Тима Акылверен
+                                        </a>
+                                        <div class="text-gray-500 hover:underline cursor-pointer">
+                                            30 мар 2020
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Post's dropdown -->
+                                <div class="p-2 relative" x-data="{ open: false }">
+                                    <svg @mouseover="open = true" @mouseout="open = false"
+                                        class="text-gray-400 w-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                                    </svg>
+                                    <div class="absolute top-5 -left-full -ml-20 mt-1" x-cloak x-show="open"
+                                        @mouseover="open = true" @mouseout="open = false">
+                                        <div
+                                            class="bg-white rounded-lg border w-44 py-1 mt-3 shadow-sm top-full shadow-2xl">
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Удалить запись
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Архивировать запись
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Сохранить в закладках
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Закрепить
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Выключить комментарии
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-2">
+                                <div class="font-medium">
+                                    Решил я значит поиграть вечерком, а тут...
+                                </div>
+                                <div class="grid grid-cols-3 pt-3">
+                                    <div class="col-span-3">
+                                        <img class="select-none "
+                                            src="https://sun9-82.userapi.com/impg/c858028/v858028330/1bdf00/MnXI7wV-VFY.jpg?size=604x340&quality=96&sign=1e4d80f3f62d039fb2e7eb67cbac40b1&type=album"
+                                            alt="">
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between mt-3">
+                                <div class="flex justify-between space-x-2">
+                                    <div x-data="{ liked: false }" @click="liked = !liked" x-cloak>
+                                        <div x-show="liked">
+                                            <button
+                                                class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500"
+                                                    viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                                <p>7</p>
+                                            </button>
+                                        </div>
+                                        <div x-show="! liked">
+                                            <button
+                                                class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2"
+                                                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                                </svg>
+                                                <p>6</p>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p>4</p>
+                                    </div>
+                                    <div
+                                        class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                                        </svg>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between w-9 text-xs-upd text-gray-400 select-none ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-300"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    409
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg border mb-4">
+                        <div class="px-4 py-3">
+                            <!-- Post's header -->
+                            <div class="flex justify-between">
+                                <div class="flex items-center">
+                                    <a class="flex-shrink-0 mr-4">
+                                        <img class="w-13 rounded-full cursor-pointer"
+                                            src="https://sun1-95.userapi.com/s/v1/ig2/IOYUXwzk6qMbYTM3kBy81FdC_-rmv__M4gQsk-6MPaW3q3tRPnObCVygm4OTgV_DTZg-yBE38kVTURjsnO314Rv3.jpg?size=50x50&quality=96&crop=397,0,674,674&ava=1"
+                                            alt="Тима Акылверен">
+                                    </a>
+                                    <div>
+                                        <a class="font-semibold hover:underline blue-text-1 cursor-pointer mb-1">
+                                            Тима Акылверен
+                                        </a>
+                                        <div class="text-gray-500 hover:underline cursor-pointer">
+                                            2 фев 2020
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Post's dropdown -->
+                                <div class="p-2 relative" x-data="{ open: false }">
+                                    <svg @mouseover="open = true" @mouseout="open = false"
+                                        class="text-gray-400 w-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                                    </svg>
+                                    <div class="absolute top-5 -left-full -ml-20 mt-1" x-cloak x-show="open"
+                                        @mouseover="open = true" @mouseout="open = false">
+                                        <div
+                                            class="bg-white rounded-lg border w-44 py-1 mt-3 shadow-sm top-full shadow-2xl">
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Удалить запись
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Архивировать запись
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Сохранить в закладках
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Закрепить
+                                            </a>
+                                            <a href="#"
+                                                class="flex items-center px-3 py-2 font-medium hover:bg-gray-100">
+                                                Выключить комментарии
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-2">
+                                <div class="font-medium">
+                                    02.02.2020
+                                </div>
+                            </div>
+                            <div class="flex justify-between mt-3">
+                                <div class="flex justify-between space-x-2">
+                                    <div x-data="{ liked: false }" @click="liked = !liked" x-cloak>
+                                        <div x-show="liked">
+                                            <button
+                                                class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500"
+                                                    viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                                <p>10</p>
+                                            </button>
+                                        </div>
+                                        <div x-show="! liked">
+                                            <button
+                                                class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2"
+                                                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                                </svg>
+                                                <p>9</p>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p>1</p>
+                                    </div>
+                                    <div
+                                        class="cursor-pointer h-8 w-16 bg-gray-100 space-x-1 rounded-2xl flex text-gray-500 select-none items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                                        </svg>
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between w-9 text-xs-upd text-gray-400 select-none ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-300"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    267
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-
             </div>
 
-
+        </div>
         </div>
     </section>
+    <div class="fixed bottom-2 left-2 opacity-30 select-none">
+        That project was created only for practice Tailwind CSS framework.
+    </div>
     <script src="//unpkg.com/alpinejs" defer></script>
 </body>
+
 </html>
